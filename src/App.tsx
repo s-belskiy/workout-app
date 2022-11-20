@@ -1,10 +1,5 @@
-import Home from './components/pages/Home/Home';
-import AppLayout from './layouts/AppLayout';
+import { useState } from 'react';
 
 export default function App() {
-	return (
-		<AppLayout>
-			<Home />
-		</AppLayout>
-	);
+	return <div></div>;
 }
